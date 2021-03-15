@@ -39,7 +39,8 @@ public class GameClient : GenericSingleton<GameClient>
     public void Connect()
     {
         // Change the endpoint to the Server URL where the Server code is deployed
-        string endpoint = "ws://localhost:2567";
+        //string endpoint = "ws://localhost:2567";
+        string endpoint = "ws://pokeradda.herokuapp.com/";
         client = new Client(endpoint);
         Connected = true;
     }
