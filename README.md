@@ -5,6 +5,7 @@ The game is developed using Unity, CSharp in the front-end Client and NodeJs, Ex
 ### Server
     * Deploy the server code onto any cloud services like AWS, Microsoft Azure, Google Cloud, Digital Ocean, etc.,
     * This will generate a URL where the back-end Server is hosted.
+    * Default port is 2567
 
 ### Client
     * Navigate to client/Assests/Scripts/Colyseus/GameClient.cs file
